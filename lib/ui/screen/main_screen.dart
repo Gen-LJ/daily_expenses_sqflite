@@ -1,6 +1,6 @@
 
 import 'package:daily_expense/ui/screen/all_expense_list_screen.dart';
-import 'package:daily_expense/ui/screen/setting_screen.dart';
+import 'package:daily_expense/ui/screen/category_screen.dart';
 import 'package:flutter/material.dart';
 
 import 'home.dart';
