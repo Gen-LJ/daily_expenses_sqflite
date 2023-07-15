@@ -6,15 +6,15 @@ import 'package:pie_chart/pie_chart.dart';
 
 import '../../database/model/category_model.dart';
 
-class SettingScreen extends StatefulWidget {
-  const SettingScreen({Key? key}) : super(key: key);
+class CategoryScreen extends StatefulWidget {
+  const CategoryScreen({Key? key}) : super(key: key);
 
 
   @override
-  State<SettingScreen> createState() => _SettingScreenState();
+  State<CategoryScreen> createState() => _CategoryScreenState();
 }
 
-class _SettingScreenState extends State<SettingScreen> {
+class _CategoryScreenState extends State<CategoryScreen> {
   late DatabaseProvider databaseProvider;
 
 
@@ -34,7 +34,7 @@ class _SettingScreenState extends State<SettingScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Setting'),
+        title: const Text('Categories'),
         centerTitle: true,
       ),
       body: FutureBuilder<Map<String,double>>(

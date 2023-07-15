@@ -23,7 +23,7 @@ class _MainScreenState extends State<MainScreen> {
     _bodyList=[
       const Home(),
     const AllExpenseList(),
-    const SettingScreen()];
+    const CategoryScreen()];
 
 
   }
@@ -44,7 +44,7 @@ class _MainScreenState extends State<MainScreen> {
         destinations: const [
           NavigationDestination(icon: Icon(Icons.home), label: 'Home'),
           NavigationDestination(icon: Icon(Icons.list), label: 'All Expense'),
-          NavigationDestination(icon: Icon(Icons.settings), label: 'Settings')
+          NavigationDestination(icon: Icon(Icons.category), label: 'Categories')
         ],
       ),
     );
